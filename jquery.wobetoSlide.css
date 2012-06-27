@@ -1,0 +1,18 @@
+div.wobetoSlide{
+  position:relative;
+  height:376px;
+  width:490px;
+  margin:0 auto;
+}
+div.wobetoSlide img{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:8;
+}
+div.wobetoSlide img.active{
+  z-index:10;
+}
+div.wobetoSlide img.last-active{
+  z-index:9;
+} 
